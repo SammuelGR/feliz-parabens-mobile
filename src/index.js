@@ -1,12 +1,3 @@
-import React from 'react';
-import { Text, View } from 'react-native';
-
-const App = () => {
-  return (
-    <View>
-      <Text>Hello, World!</Text>
-    </View>
-  );
-};
+import App from './screens/Home';
 
 export default App;
