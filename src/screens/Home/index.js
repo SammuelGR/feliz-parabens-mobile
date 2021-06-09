@@ -18,10 +18,14 @@ const App = () => {
           <Text style={styles.bodyTitle}>Escolha um presente:</Text>
 
           <View style={styles.giftList}>
-            <GiftButton icon="🤑" title="1 milhão U$" />
-            <GiftButton icon="🚗" title="Corsa 2009 completo turbo" />
-            <GiftButton icon="🌐" title="Versão Web" />
-            <GiftButton icon="📖" title="Textão" />
+            <GiftButton icon="🤑" title="1 milhão U$" onPress={'fake'} />
+            <GiftButton
+              icon="🚗"
+              title="Corsa 2009 completo turbo"
+              onPress={'fake'}
+            />
+            <GiftButton icon="🌐" title="Versão Web" onPress={'web'} />
+            <GiftButton icon="📖" title="Textão" onPress={'gift'} />
           </View>
         </View>
       </SafeAreaView>
